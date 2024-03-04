@@ -55,7 +55,7 @@ jobs:
     
         - name: Code Coverage Tests
           continue-on-error: true
-          run: npm run code-coverage
+          run: npm run coverage
           
         - name: Code Coverage Tests
           continue-on-error: true
